@@ -127,16 +127,19 @@
     ]
   },
     {
-    "id": "",
-    "nama": "",
-    "asal": "",
-    "kategori": "",
-    "latar_belakang": "",
-    "gambarUtama": "",
-    "penjelasan": "",
-    "sumber": "",
-    "video": "",
-    "galeri": []
+    "id": "nenjrangbumi",
+    "nama": "Nenjrang Bumi",
+    "asal": "Jawa",
+    "kategori": "Adat Kelahiran",
+    "latar_belakang": "Nenjrag Bumi adalah tradisi adat Sunda <br>sebagai ritual memperkenalkan bayi kepada alam <br>semesta dan menanamkan kekuatan mental sejak dini.",
+    "gambarUtama": "https://jalanjalanyuk.co.id/wp-content/uploads/2024/12/Upacara-Adat-Nenjrag-Bumi.webp",
+    "penjelasan": "Dalam pelaksanaannya, bayi diletakkan di atas pelupuh (alas dari bambu belah-belah), kemudian sang ibu menghentakkan kakinya sebanyak tujuh kali ke pelupuh atau memukulkan alu ke tanah di dekat bayi. Ritual tersebut dimaksudkan agar si bayi kelak tidak mudah takut atau kaget dan memiliki jiwa yang kuat dalam menghadapi tantangan hidup.<br><br>Secara filosofi, Nenjrag Bumi menyiratkan bahwa di mana pun kaki anak itu berpijak dan seberat apapun cobaan yang menghampiri, ia ingin diajarkan agar mampu berdiri teguh  sekaligus menghubungkan manusia baru itu dengan “bumi” sebagai simbol kekuatan dan asal-usul kehidupan.",
+    "sumber": "https://www.merahputih.com/post/read/nenjrag-bumi-ritual-perkenalan-bayi-pada-alam-semesta",
+    "video": "https://youtu.be/K-4OwRSli5o?si=2Ms-xnBfXZH1TX2Z",
+    "galeri": [
+      "https://www.kabarsunda.com/media/2024/12/Nenjrag-Bumi.jpg",
+      "https://img.merahputih.com/media/4b/7e/76/4b7e76159975862226ad2797681950bc.jpg"
+    ]
   }
 ]
 
