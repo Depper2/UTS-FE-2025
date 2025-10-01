@@ -1,0 +1,107 @@
+@font-face {
+    font-family: 'cursive';
+    src: url(../Home/fonts/Belleza-Regular.ttf);
+}
+@font-face {
+    font-family: 'java';
+    src: url(../Home/fonts/Upakarti-yxqe.ttf);
+}
+
+body{
+  background-color: rgb(141, 77, 21);
+  margin: 0;
+  padding: 0;
+}
+
+.topnavbar{
+    display: flex;
+    justify-content: right;
+    padding: 15px;
+    gap: 30px;
+}
+
+.topnavbar a{
+    background-color: white;
+    padding: 10px 20px;
+    border-radius: 10px;
+    color: black;
+    text-decoration: none;
+    font-size: 20px;
+    font-family: 'java';
+}
+
+.topnavbar a:hover{
+    background-color:  black;   
+    color: white;
+    transition: 0.3s;
+}
+
+header {
+  text-align: center;
+  padding: 30px 10px;
+  background-color: white;
+}
+
+header h1 {
+  font-family: 'cursive';
+  font-size: 48px;
+  color: rgb(141, 77, 21);
+  margin: 0;
+}
+
+.adatlistcontainer {
+  padding: 40px 30px;
+}
+
+.adatlistcontainer h2 {
+  font-size: 32px;
+  color: white;
+  margin-bottom: 20px;
+  border-left: 8px solid white;
+  padding-left: 12px;
+}
+
+.adatlistcontainer {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+  gap: 25px;
+}
+
+.adatlist {
+  background-color: white;
+  border-radius: 12px;
+  text-align: center;
+  padding: 15px;
+  box-shadow: 0 4px 12px rgba(0,0,0,0.2);
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.adatlist a{
+  text-decoration: none;
+  color: black;
+}
+
+.adatlist a:hover{
+  text-decoration: none;
+  color: brown;
+}
+
+.adatlist:hover {
+  transform: translateY(-8px);
+  box-shadow: 0 6px 18px rgba(0,0,0,0.3);
+}
+
+.adatlist img {
+  width: 100%;
+  height: 160px;
+  object-fit: cover;
+  border-radius: 10px;
+  margin-bottom: 12px;
+}
+
+.adatlist p {
+  font-family: 'java';
+  font-size: 20px;
+  margin: 0;
+}
+

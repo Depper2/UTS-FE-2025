@@ -1,0 +1,111 @@
+@font-face {
+    font-family: 'cursive';
+    src: url(fonts/KaushanScript-Regular.ttf);
+}
+@font-face {
+    font-family: 'java';
+    src: url(fonts/Upakarti-yxqe.ttf);
+}
+
+body{
+  background-color: maroon;
+  margin: 0;
+  padding: 0;
+}
+
+.aboutuscontainer {
+  display: flex;
+  flex-direction: column;
+  padding: 20px;
+  background-color: rgba(7, 1, 1, 0.691);
+  align-items: center;
+}
+
+.topnavbar{
+  display: flex;
+  justify-content: right;
+  background-color: maroon;
+  padding: 15px;
+  gap: 30px;
+  border: 2px solid black;
+}
+
+.topnavbar a{
+  background-color: white;
+  padding: 10px 20px;
+  border-radius: 10px;
+  color: black;
+  text-decoration: none;
+  font-size: 20px;
+  font-family: 'java', sans-serif;
+}
+
+.topnavbar a:hover{
+  background-color:  black;   
+  color: white;
+  transition: 0.3s;
+}
+
+
+.devinprofile{
+  width: 400px;
+  padding: 10px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  border-radius: 10px;
+  background: url(aboutusimg/depbgprof.jpg);
+}
+
+.fotodevin img{
+  width: 300x;
+  height: 300px;
+  border-radius: 20px;
+  border: 5px solid black;
+  display: fit-content;
+}
+
+.selfdesc{
+  margin-top: 10px;
+  width: fit-content;
+  padding: 10px;
+  border-radius: 10px;
+  background-color: maroon;
+  font-size: 15px;
+  font-weight: bold;
+  border: 3px solid black;
+}
+
+.contacts {
+  margin-top: 10px;
+  width: 280px;
+  background: maroon;
+  font-weight: bold;
+  text-align: center;
+  border-radius: 10px;
+  border: 3px solid black;
+}
+
+.iglink, .wanum {
+  color: white;
+  display: inline-block;
+  background-color: rgb(141, 77, 21);
+  padding: 10px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-decoration: none;
+  gap: 8px;
+  border-radius: 10px;
+  width: fit-content;
+  margin: 10px auto;
+}
+
+.iglink:hover, .wanum:hover {
+  background-color: white;
+  color: black;
+  transition: 0.3s;
+}
+
+
