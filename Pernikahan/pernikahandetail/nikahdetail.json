@@ -79,12 +79,12 @@
   ]
   },
   {
-  "id": "https://statik.tempo.co/data/2023/10/20/id_1247043/1247043_720.jpg",
+  "id": "pawiwihan",
   "nama": "Pawiwihan",
   "asal": "Bali",
   "kategori": "Adat Pernikahan",
   "latar_belakang": "Pawiwahan adalah upacara adat Hindu Bali yang mengikat dua <br> insan sebagai suami istri baik lahir maupun batin.",
-  "gambarUtama": "Pawiwahan adalah upacara adat Hindu Bali yang mengikat dua <br> insan sebagai suami istri baik lahir maupun batin.",
+  "gambarUtama": "https://statik.tempo.co/data/2023/10/20/id_1247043/1247043_720.jpg",
   "penjelasan": "Upacara Pawiwahan melibatkan serangkaian ritual sakral seperti mabyakala (pembersihan diri dari pengaruh buruk) dan mesegeh agung (penyambutan mempelai wanita ke rumah mempelai pria). <br> <br>Selain itu ada mejauman, di mana mempelai mengantar persembahan kembali ke keluarga mempelai wanita sebagai simbol penghormatan dan perpisahan secara adat.",
   "sumber": "https://www.detik.com/bali/budaya/d-6391951/mengenal-pawiwahan-tradisi-pernikahan-adat-hindu-di-bali",
   "video": "https://youtu.be/obyR5k_k-AE?si=-uzJFq6fdsofv7KJ",
@@ -96,15 +96,88 @@
   ]
   },
   {
-  "id": "",
-  "nama": "",
-  "asal": "",
-  "kategori": "",
-  "latar_belakang": "",
-  "gambarUtama": "",
-  "penjelasan": "",
-  "sumber": "",
+  "id": "malambainai",
+  "nama": "Malam Bainai",
+  "asal": "Sumatera",
+  "kategori": "Adat Pernikahan",
+  "latar_belakang": "Malam Bainai adalah tradisi adat Minangkabau di Sumatera Barat yang dilakukan pada malam sebelum akad nikah,<br> di mana calon pengantin wanita dihias dengan inai sebagai simbol kasih sayang dan doa restu.",
+  "gambarUtama": "https://cdn.rri.co.id/berita/Bukittinggi/o/1754407580245-malam-bainai-1-mahligai-indonesia-62b42113bb4486160d549362/rjeabo0rg65u5ri.jpeg",
+  "penjelasan": "Dalam prosesi Malam Bainai, calon pengantin wanita terlebih dahulu mengenakan pakaian tradisional seperti Baju Tokah dan hiasan kepala Suntiang. Kemudian dilakukan prosesi mandi-mandi dengan mencipratkan air yang telah dicampur tumbukan daun inai dalam jumlah ganjil kepada calon mempelai oleh kerabat terdekat, sebagai lambang penyucian dan doa restu. Setelah itu, para saudara wanita atau kerabat memasangkan inai ke kuku tangan dan kaki pengantin, dan warna inai tersebut dibiarkan semalaman agar hasilnya lebih tampak. <br><br>Makna utama dari tradisi ini bukan sekadar hiasan fisik, melainkan juga simbolik—penyematan inai melambangkan harapan agar pengantin diberkati kecantikan, kebahagiaan, dan kelanggengan rumah tangga. Selain itu, malam tersebut juga menjadi momen berkumpulnya keluarga dan kerabat untuk menyampaikan pesan, nasihat, dan penguatan ikatan sosial dalam konteks adat Minangkabau.",
+  "sumber": "https://www.detik.com/sumut/budaya/d-7118683/tradisi-malam-bainai-upacara-jelang-pernikahan-adat-sumatera-barat",
   "video": "",
-  "galeri": []
+  "galeri": [
+    "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQ8u8p2utK08g9j9RrDsj_ARH7tx5pxoHfnHy9B4wGbStYqcV-_2DUF1mpkHWdCfxAVNkI&usqp=CAU",
+    "https://jwc.gotra-resources.my.id/web-upload/1713927122-24-04-2024-rLQC6xFueS295olGyvHhA3NdEcgJU7mw.webp",
+    "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcR8CR_7WbW9dlTBD8MW6tLcpyZW-xpUDhJb4g&s",
+    "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTwWGw2rLI7h4giWBggb6iJFX3xo-sx0LG1pg&s"
+  ]
+  },
+  {
+  "id": "bausung",
+  "nama": "Bausung",
+  "asal": "Kalimantan",
+  "kategori": "Adat Pernikahan",
+  "latar_belakang": "Tradisi Bausung merupakan prosesi adat pernikahan masyarakat Banjar di Kalimantan Selatan, di mana pengantin<br>diusung dengan tandu khusus sebagai simbol penghormatan dan sukacita keluarga.",
+  "gambarUtama": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTlXqcd6fsQ6Lf3ARxS3cin3gITs3UsnUN2ig&s",
+  "penjelasan": "Dalam tradisi ini, kedua pengantin ditempatkan di atas tandu atau usungan yang dihias indah, lalu diarak menuju tempat resepsi atau pelaminan. Prosesi pengusungan biasanya dilakukan oleh para pemuda desa dengan iringan musik tradisional, seperti gamelan Banjar, serta disambut meriah oleh masyarakat. Selain menjadi atraksi budaya yang penuh warna, Bausung juga menandakan penghormatan tinggi kepada mempelai karena mereka dianggap sebagai raja dan ratu sehari.<br><br>Makna simbolis Bausung terletak pada nilai kebersamaan dan gotong royong masyarakat Banjar. Prosesi ini tidak hanya menampilkan keindahan budaya, tetapi juga mempererat hubungan sosial antarkerabat dan warga. Dengan tetap melestarikan tradisi ini, masyarakat Banjar menjaga kearifan lokal sekaligus memperlihatkan identitas budaya mereka di tengah perkembangan zaman modern.",
+  "sumber": "https://www.goodnewsfromindonesia.id/2023/11/03/tradisi-bausung-pengantin-banjar-memelihara-kearifan-lokal-di-pernikahan-tradisional ",
+  "video": "https://youtu.be/0BOHlehzyIs?si=5VrK4-XoLL3gH2on",
+  "galeri": [
+    "https://assets.espos.id/images/2022/02/BAUSUNG-PENGANTIN-1.jpg",
+    "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTeOqxsMs0XSKUdb189xRleyA2DN9MtI4OWOQ&s",
+    "https://infopublik.id/resources/album/maret-2020/WhatsApp_Image_2020-03-22_at_5_41_40_PM.jpeg",
+    "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSHqPQRTz93cvOf1I1zrB5npzkxEH8e9fe_ng&s"
+  ]
+  },
+  {
+  "id": "mangulosi",
+  "nama": "Mangulosi",
+  "asal": "Kalimantan",
+  "kategori": "Adat Pernikahan",
+  "latar_belakang": "Dalam pesta adat Suku Batak  seperti pernikahan, kelahiran, atau kematian  tradisi Mangulosi,<br> yakni mengalungkan ulos, menjadi bagian penting yang menunjukkan penghormatan dan pemberian berkat. ",
+  "gambarUtama": "https://siapnikah.org/wp-content/uploads/2022/11/316476583_459803699603798_6913921802692245256_n.jpg",
+  "penjelasan": "Mangulosi melibatkan prosesi di mana seseorang  biasanya pengantin, orang tua, atau yang dihormati  dipakaikan ulos oleh kerabat dekat, sambil disertai ucapan doa atau nasihat (umpasa) dan iringan musik Gondang serta tarian Tortor. detikcom Ulos dalam konteks ini bukan sekadar kain; ia membawa makna harapan akan keberkahan, perlindungan, dan pengakuan terhadap warisan leluhur bagi yang menerima ulos. <br><br>Seiring waktu, meskipun masyarakat Batak tetap mempertahankan Mangulosi dalam berbagai upacara adat, terdapat pula perkembangan seperti pemberian ulos kepada non-Batak dan penggunaan ulos sebagai simbol penghargaaan kepada pejabat atau tokoh masyarakat. Perubahan ini menunjukkan bahwa tradisi tidak sepenuhnya statis, melainkan tetap hidup dan adaptif terhadap konteks sosial yang berubah.",
+  "sumber": "https://www.detik.com/sumut/budaya/d-6776969/tradisi-mangulosi-yang-penting-dalam-pesta-adat-suku-batak",
+  "video": "",
+  "galeri": [
+    "https://ik.imagekit.io/goodid/gnfi/uploads/articles/large-img-20231104-wa0003-64c064c265d4bc9e88787d93c3f2bc31.jpg?tr=w-730,h-486,fo-center",
+    "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcS7DXIHWB5wXxP-mAqsvkFApvALyF1kLRpALw&s",
+    "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcStdSrTIEawibXWcwWPjjMX9Gwy_VwOpkPPpQ&s",
+    "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcT94mT0elii6UnSq4R5BROioSubuRAk0H2Gxg&s"
+  ]
+  },
+  {
+    "id": "merarik",
+    "nama": "Merarik",
+    "asal": "Nusa Tenggara Barat",
+    "kategori": "Adat Pernikahan",
+    "latar_belakang": "Merarik adalah tradisi kawin lari dalam adat Suku Sasak <br>di Lombok yang menjadi salah satu tahapan awal dalam proses pernikahan adat mereka.",
+    "gambarUtama": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRPoxYLewtFNAIplzQ-W3iuzFWVEoQBXiPGTA&s",
+    "penjelasan": "Pelaksanaan Merarik dimulai setelah peminangan: pihak laki-laki “membawa lari” calon pengantin wanita untuk kemudian diupayakan pernikahan secara adat. Jika muncul keberatan dari pihak wanita atau keluarga, maka perselisihan diselesaikan lewat musyawarah keluarga; jika tidak mencapai mufakat, kepala desa atau pemuka adat turun tangan sebagai penengah.<br> <br>Dalam maknanya, Merarik bukan sekadar tindakan fisik, melainkan mencerminkan keberanian, tanggung jawab, dan komitmen kedua pihak. Proses ini dilandasi prinsip kebersamaan dalam keluarga, penghargaan terhadap status wanita, serta pertimbangan ekonomitermasuk pemberian mahar yang nilainya disesuaikan dengan pendidikan atau status sosial calon istri.",
+    "sumber": "https://id.wikipedia.org/wiki/Merarik",
+    "video": "https://youtu.be/Ykkjo-FExZE?si=B_xShWg8-3iczODH",
+    "galeri": [
+      "https://jurnalpost.com/wp-content/uploads/2022/12/Tradisi-Merarik.webp",
+      "https://assets-a1.kompasiana.com/items/album/2024/07/01/merarik-2-66820297c925c46b35324802.jpg",
+      "https://cdn.grid.id//crop/0x0:0x0/360x240/photo/2020/10/23/2753752432.jpg",
+      "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRLXQjUXY9uA5CeBxpEboFy1ShotGHmRl30kA&s"
+    ]
+  },
+  {
+    "id": "bakarbatu",
+    "nama": "Bakar Batu",
+    "asal": "Papua",
+    "kategori": "Adat Pernikahan",
+    "latar_belakang": "Bakar Batu adalah tradisi memasak adat masyarakat Papua Pegunungan menggunakan batu <br>panas sebagai media memasak makanan secara gotong-royong dalam momen kebersamaan dan syukur.",
+    "gambarUtama": "https://s2.dmcdn.net/v/UFBIL1eotxnbRZQNs/x720",
+    "penjelasan": "Proses ritual Bakar Batu diawali dengan pembakaran batu hingga merah menyala, kemudian batu panas tersebut dimasukkan ke dalam lubang yang sudah digali dan dilapisi daun pisang atau alang-alang. Di atas batu, diletakkan daging (biasanya babi), ubi, sayur, dan bahan pangan lain yang kemudian ditutup kembali dengan batu panas dan daun hingga makanan matang. Setelah matang biasanya sekitar satu jam makanan tersebut dibagikan kepada seluruh warga kampung dalam suasana makan bersama, mempererat solidaritas dan kebersamaan antar warga. <br><br>Makna Bakar Batu lebih luas dari sekadar seni kuliner: ia menjadi simbol rasa syukur, kebersamaan, dan persatuan antar warga, serta menjadi momen untuk mempererat ikatan antar keluarga dan kerabat.  Dalam praktiknya, pada masyarakat yang memeluk agama Islam atau ketika tamu muslim hadir, daging babi bisa diganti dengan ayam atau daging lain sebagai bentuk penghormatan dan toleransi.",
+    "sumber": "https://id.wikipedia.org/wiki/Bakar_Batu",
+    "video": "https://youtu.be/tRIof1HoSDE?si=brxBQA7Ojcn44XAx",
+    "galeri": [
+      "https://cdn.grid.id/crop/0x0:0x0/x/photo/2022/10/16/bakar-batujpg-20221016092612.jpg",
+      "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRyzi19vIwuGNYmTOPyfx1WFoN_nN4RQ6IDRA&s",
+      "https://cnc-magazine.oramiland.com/parenting/images/Prosesi_Upacara_Bakar_Batu_96DfvW.width-800.format-webp.webp",
+      "https://asset.kompas.com/crops/1_d-kQmdv2ILA-dWW3tqRlFla7M=/0x0:0x0/1200x800/data/photo/2021/04/24/6083fb1dd1519.jpg"
+    ]
   }
 ]
