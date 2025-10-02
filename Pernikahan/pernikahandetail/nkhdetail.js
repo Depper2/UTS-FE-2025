@@ -5,7 +5,7 @@ if (!urlParams.has('adat')) {
   window.location.href = window.location.pathname + '?adat=' + adatId;
 }
 
-fetch('nikahdetai.json')
+fetch('nikahdetail.json')
   .then(res => res.json())
   .then(data => {
     const adat = data.find(a => a.id === adatId);
