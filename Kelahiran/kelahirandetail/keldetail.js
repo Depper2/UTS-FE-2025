@@ -1,5 +1,5 @@
 const urlParams = new URLSearchParams(window.location.search);
-const adatId = urlParams.get('adat') || 'brokohan';
+const adatId = urlParams.get('adat');
 
 if (!urlParams.has('adat')) {
   window.location.href = window.location.pathname + '?adat=' + adatId;

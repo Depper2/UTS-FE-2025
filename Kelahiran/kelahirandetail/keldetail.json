@@ -20,7 +20,7 @@
   {
     "id": "mamoholi",
     "nama": "Mamoholi",
-    "asal": "Sumatera Utara",
+    "asal": "Sumatera",
     "kategori": "Adat Kelahiran",
     "latar_belakang": "Mamoholi adalah tradisi adat Batak Toba dalam merayakan kehadiran bayi sebagai wujud syukur dan <br> solidaritas sosial di komunitas.",
     "gambarUtama": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQW3L01W4y6YdHAZWgaS7MnNwjNjTU8Mw5m9Q&s",
@@ -86,7 +86,7 @@
     "asal": "Jawa",
     "kategori": "Adat Kelahiran",
     "latar_belakang": "menandai momen pertama kali seorang<br> anak menginjakkan kaki ke tanah <br /> saat berusia sekitar tujuh bulan kalender Jawa atau delapan bulan kalender Masehi, <br />ketika ia mulai belajar duduk dan berjalan",
-    "gambarUtama": "https://upload.wikimedia.org/wikipedia/commons/thumb/8/88/TEDAK_SITEN.jpg/1200px-TEDAK_SITEN.jpg",
+    "gambarUtama":"https://media.suara.com/pictures/653x366/2022/09/27/49866-potret-tedak-siten-anak-artis-instagramattitiradjopadmaja.jpg",
     "penjelasan": "Tedhak Siten adalah tradisi Jawa yang dilakukan ketika seorang anak pertama kali menginjakkan kaki ke tanah, biasanya saat berusia tujuh lapan atau sekitar delapan bulan ketika mulai belajar berjalan. Kata tedhak berarti turun atau menapak, sedangkan siten berarti tanah, sehingga tradisi ini melambangkan langkah awal seorang anak dalam menjalani kehidupan. Upacara ini sarat dengan doa dan harapan orang tua agar anak tumbuh kuat, mendapat pertolongan Tuhan, serta kelak mampu menghadapi rintangan hidup.</br><br>Dalam pelaksanaannya, digunakan berbagai perlengkapan seperti jadah tujuh warna, tangga dari tebu, kurungan ayam berisi benda-benda, air bunga, serta makanan tradisional seperti ayam panggang, pisang raja, jajan pasar, jenang, tumpeng, dan udhik-udhik. Prosesi biasanya dimulai dengan membersihkan kaki anak, kemudian menuntunnya berjalan di atas tujuh jadah warna-warni yang melambangkan berbagai rintangan kehidupan. Setelah itu anak diajak menaiki tangga tebu sebagai simbol keteguhan hati, lalu dimasukkan ke dalam kurungan ayam berisi benda yang dipilih anak sebagai gambaran masa depan atau profesinya kelak. Selanjutnya anak dimandikan dengan air bunga agar kelak membawa harum nama keluarga, dan upacara ditutup dengan penyebaran udhik-udhik sebagai pengajaran untuk berbagi rezeki.</br><br>Meskipun detail pelaksanaannya dapat berbeda di tiap daerah, inti dari tradisi Tedhak Siten tetap sama, yakni mendoakan dan membimbing anak agar siap menapaki kehidupan dengan tekad, kesucian, dan dukungan keluarga.",
     "sumber": "https://kebudayaan.jogjakota.go.id/page/index/tedhak-siten--upacara-adat-menapak-tanah-pertama-bagi-anak",
     "video": "https://www.youtube.com/watch?v=LzovmrY2i5I&t=894s",
@@ -127,16 +127,70 @@
     ]
   },
     {
-    "id": "",
-    "nama": "",
-    "asal": "",
-    "kategori": "",
-    "latar_belakang": "",
-    "gambarUtama": "",
-    "penjelasan": "",
-    "sumber": "",
-    "video": "",
-    "galeri": []
+    "id": "nenjrangbumi",
+    "nama": "Nenjrang Bumi",
+    "asal": "Jawa",
+    "kategori": "Adat Kelahiran",
+    "latar_belakang": "Nenjrag Bumi adalah tradisi adat Sunda <br>sebagai ritual memperkenalkan bayi kepada alam <br>semesta dan menanamkan kekuatan mental sejak dini.",
+    "gambarUtama": "https://jalanjalanyuk.co.id/wp-content/uploads/2024/12/Upacara-Adat-Nenjrag-Bumi.webp",
+    "penjelasan": "Dalam pelaksanaannya, bayi diletakkan di atas pelupuh (alas dari bambu belah-belah), kemudian sang ibu menghentakkan kakinya sebanyak tujuh kali ke pelupuh atau memukulkan alu ke tanah di dekat bayi. Ritual tersebut dimaksudkan agar si bayi kelak tidak mudah takut atau kaget dan memiliki jiwa yang kuat dalam menghadapi tantangan hidup.<br><br>Secara filosofi, Nenjrag Bumi menyiratkan bahwa di mana pun kaki anak itu berpijak dan seberat apapun cobaan yang menghampiri, ia ingin diajarkan agar mampu berdiri teguh  sekaligus menghubungkan manusia baru itu dengan “bumi” sebagai simbol kekuatan dan asal-usul kehidupan.",
+    "sumber": "https://www.merahputih.com/post/read/nenjrag-bumi-ritual-perkenalan-bayi-pada-alam-semesta",
+    "video": "https://youtu.be/K-4OwRSli5o?si=2Ms-xnBfXZH1TX2Z",
+    "galeri": [
+      "https://www.kabarsunda.com/media/2024/12/Nenjrag-Bumi.jpg",
+      "https://img.merahputih.com/media/4b/7e/76/4b7e76159975862226ad2797681950bc.jpg"
+    ]
+  },
+    {
+    "id": "ngurisan",
+    "nama": "Ngurisan",
+    "asal": "Nusa Tenggara Barat",
+    "kategori": "Adat Kelahiran",
+    "latar_belakang": "Ngurisan adalah tradisi   masyarakat Sasak di NTB berupa cukur rambut bayi <br>yang dilaksanakan saat Maulid Nabi sebagai bentuk syukur dan penyambutan kehidupan baru.",
+    "gambarUtama": "https://asset-2.tribunnews.com/tribunnews/foto/bank/images/andang-andang-yang-disiapkan-para-orang-tua-sa.jpg",
+    "penjelasan": "Prosesi ngurisan melibatkan semua tokoh agama dan masyarakat yang hadir untuk mencukur atau setidaknya menyentuh kepala bayi tersebut, kemudian potongan rambut beserta bunga dan uang dibagikan ke halaman untuk dibagikan ke masyarakat. Ritual ini sering digelar di masjid atau rumah di hari-hari besar Islam seperti Maulid Nabi, dan umumnya dilakukan pada bayi yang berusia di bawah 6 bulan hingga 1 tahun.<br><br>Secara makna, ngurisan bukan hanya sebagai ritual kelahiran, tetapi juga sebagai sarana penguatan solidaritas sosial dan identitas budaya Sasak, di mana kehadiran bayi disambut bukan hanya oleh keluarga inti tetapi oleh komunitas luas. Ritual ini menjadi titik temu antara budaya lokal dan religiusitas Islam, sekaligus menjaga tradisi agar tetap hidup di tengah perubahan zaman.",
+    "sumber": "https://www.detik.com/bali/berita/d-6939355/mengenal-lebih-jauh-tradisi-ngurisan-ntb-cukur-rambut-bayi-saat-maulid-nabi",
+    "video": "https://youtube.com/shorts/gWWPSl1df2I?si=MmyyO7qaPVD_8ddy",
+    "galeri": [
+      "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQ3pxKxBw6IEf4vO14AvZ7ge84OSv2DD5ogiw&s",
+      "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQ_JNBSFXqxblHO69XT1bVdumVdtqkmdWb-6Q&s",
+      "https://infopublik.id/resources/album/desember-2018/WhatsApp_Image_2018-12-03_at_06_43_22.jpeg",
+      "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEgoYcv0VopEzfVdkvSuenyDjoTwStIhblbRymKxxm9ZRsCKV0LhZkIVIS-S9o76GPFfAon8jtYaVjd_Qlzt82BIF29i-r_dTyL3VEL2-ZxOhb-NzuvezSPkLaIity287imt8Vowel-I5Wc/w1200-h630-p-k-no-nu/P_20150721_112434.jpg"
+    ]
+  },
+      {
+    "id": "puputpuser",
+    "nama": "Puput Puser",
+    "asal": "Jawa",
+    "kategori": "Adat Kelahiran",
+    "latar_belakang": "<b>Latar Belakang:</b> Upacara ini dilaksanakan setelah tali pusar bayi lepas, <br>biasanya pada usia 5, 7, atau 12 hari setelah kelahiran, <br>sebagai wujud syukur dan doa agar bayi terhindar dari gangguan,<br>diberi keselamatan, serta tumbuh sehat.",
+    "gambarUtama": "https://redaksi.inibaru.id/media/18003/large/normal/7389ef81-1c76-4a17-b2a6-366ac02665b8__large.jpg",
+    "penjelasan": "Puput Puser (atau Puputan) adalah tradisi adat Jawa yang dilaksanakan setelah tali pusat bayi sudah putus, yaitu ketika bayi berusia 5, 7, atau 12 hari.Tujuan dari upacara ini adalah untuk memohon keselamatan dan perlindungan bagi bayi baru lahir dari segala gangguan roh halus maupun kejahatan, serta sebagai wujud syukur keluarga atas kelahiran sang bayi. <br> <brSecara ritual, upacara Puputan melibatkan beberapa prosesi seperti pengurungan rumah dengan daun-daunan berduri, pemasangan “lawa wenang” di sekeliling rumah, tuguran, tirakatan, serta kenduri atau selamatan yang dihadiri oleh keluarga, pinisepuh, dan tetangga. Dalam tradisi ini sering pula dilakukan pemberian nama bayi, pembacaan doa, serta penggunaan aneka perlengkapan seperti jenang, jajanan pasar, mainan kertas (blungkang), dan galaian (gandhik), yang masing-masing menyimbolkan harapan dan perlindungan bagi bayi",
+    "sumber": "https://www.detik.com/jateng/budaya/d-6754342/mengenal-upacara-puputan-tradisi-sambut-kelahiran-bayi-adat-jawa",
+    "video": "https://youtu.be/sgHamu-P_xg?si=Pr0tdC8Up1pOlBkg",
+    "galeri": [
+      "https://ik.imagekit.io/goodid/gnfi/uploads/articles/large-pxl-20220927-030935085-mp-57eeed8fc9e759e53062c00c92a930b2.jpg?tr=w-730,h-486,fo-center",
+      "https://cdngnfi2.sgp1.cdn.digitaloceanspaces.com/gnfi/uploads/images/2023/11/0415082023-PXL_20220927_025750235.MP-min.jpg",
+      "https://cdngnfi2.sgp1.cdn.digitaloceanspaces.com/gnfi/uploads/images/2023/11/0415062023-PXL_20220927_031144825.MP-min.jpg",
+      "https://ik.imagekit.io/goodid/gnfi/uploads/articles/large-doa-aqiqah-1-f74428f5498db5ea89532a91ca78dc31.jpg?tr=w-449,h-252,fo-center"
+    ]
+  },
+    {
+    "id": "turunmandi",
+    "nama": "Turun Mandi",
+    "asal": "Sumatera",
+    "kategori": "Adat Kelahiran",
+    "latar_belakang": "<b>Latar Belakang:</b>Upacara Turun Mandi tumbuh <br>dalam tradisi Minangkabau sebagai <br>bentuk syukur atas kelahiran bayi sekaligus simbol<br>pengenalan sang anak ke lingkungan sekitar.",
+    "gambarUtama": "https://cdn.rri.co.id/berita/Bukittinggi/o/1734711670131-turun-mandi-62baed17bb44867e1e6f3c08/o94elf8mrlxs36u.jpeg",
+    "penjelasan": "Dalam pelaksanaannya, Upacara Turun Mandi melibatkan berbagai simbolisme seperti penggunaan obor (kain baruak), perendaman bayi di air sungai, penghanyutan bibit kelapa, penggunaan batu oleh tangguak, serta ritual nasi yang dioleskan dengan arang dan darah ayam. Semua tahap ini tak hanya bersifat ritual, tetapi memiliki arti mendalam: bibit kelapa sebagai simbol pertumbuhan mandiri, batu tujuh sebagai simbol fondasi kuat, dan nasi-arang-darah sebagai pelindung dari pengaruh negatif. <br><br>Secara esensial, tradisi ini berfungsi sebagai media bagi keluarga untuk mengungkap harapan agar anak tumbuh dalam keselarasan dengan alam dan masyarakat, berjiwa mandiri, dan menjadi individu yang berkontribusi positif terhadap komunitasnya. Selain itu, melalui pelibatan tetangga dan sanak keluarga, upacara ini juga mempererat ikatan sosial antar anggota komunitas di sekitar bayi tersebut.",
+    "sumber": "https://packagepadang.com/upacara-turun-mandi/",
+    "video": "https://youtu.be/C-JI5v-eN64?si=MFK4PWPFRJNFrrMp",
+    "galeri": [
+      "https://packagepadang.com/wp-content/uploads/2024/08/Upacara-turun-mandi.jpg",
+      "https://images.genpi.co/uploads/news/watermark/2019/04/02/2bc6beae5443dd9ee0b02a4180f6d88a.jpg",
+      "https://lh3.googleusercontent.com/ZUkc_Vwc2y0oydj8mBu8sPxJJ3J3oKM9GbpEd7PXVPA=w1196-h709-no",
+      "https://paltv.disway.id/upload/0951553a03a48962ed0e0e305c74ac4d.jpg"
+    ]
   }
 ]
 

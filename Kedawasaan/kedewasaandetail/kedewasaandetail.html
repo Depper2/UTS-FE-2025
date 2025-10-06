@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Detail Adat Kedawasaan</title>
+    <link rel="stylesheet" href="adtdetail.css" />
+  </head>
+  <body>
+    <div class="fulltopnav">
+      <div class="topnavbar">
+        <img src="../../Home/Homeimg/arlogo.png" class="logo" />
+        <div class="topnavmenu">
+          <a href="../../Home/Home.html">Home</a>
+          <a href="../../Adatlist/Adatlist.html">Daftar Adat</a>
+          <a href="../../Search/search.html">Cari</a>
+          <a href="../../Aboutus/aboutus.html">About us</a>
+        </div>
+      </div>
+    </div>
+    <!-- Pembagi kiri tengah kanan -->
+    <div class="lmrframing">
+      <!-- kiri -->
+      <div class="leftframe"></div>
+
+      <!-- tengah -->
+      <div class="midframe">
+        <div class="contutama">
+          <div class="fotodetail">
+            <img id="gambarUtama" src="" alt="gambar adat" />
+          </div>
+          <div class="descdetail">
+            <h1 id="namaAdat"></h1>
+            <p><b>Asal:</b> <span id="asalAdat"></span></p>
+            <p><b>Kategori:</b> <span id="kategoriAdat"></span></p>
+            <p>
+              <b>Latar Belakang:</b>
+              <span id="latarAdat"></span>
+            </p>
+          </div>
+        </div>
+
+        <div class="artikel">
+          <h2>Penjelasan Adat</h2>
+          <p id="penjelasanAdat"></p>
+          <div class="tautan">
+            <a id="sumberLink" target="_blank" class="sumber">Sumber</a>
+            <a id="videoLink" target="_blank" class="videobtn">Video</a>
+          </div>
+        </div>
+
+        <div class="galeri">
+          <h2>Galeri Pelaksanaan</h2>
+          <div class="slider">
+            <div class="slides" id="galeriContainer"></div>
+            <button class="prev">&#10094;</button>
+            <button class="next">&#10095;</button>
+          </div>
+        </div>
+
+        <div class="footer">
+          <p>&copy; 2025 AdatRaya</p>
+        </div>
+      </div>
+      <!-- kanan -->
+      <div class="rightframe"></div>
+    </div>
+    <!-- end divider -->
+    <script src="/Kedawasaan/kedewasaandetail/keddetail.js"></script>
+    <script src="slider.js"></script>
+  </body>
+</html>

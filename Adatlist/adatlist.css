@@ -83,6 +83,7 @@ header h1 {
 .adatlist a {
   text-decoration: none;
   color: black;
+  width: 100%;
 }
 
 .adatlist a:hover {
@@ -151,8 +152,9 @@ header h1 {
   border: 3px solid;
   width: fit-content;
   color: rgb(141, 77, 21);
-  padding: 6px;
+  padding: 8px;
   margin-top: 3px;
+  margin-left: 3px;
   font-size: 25px;
   font-weight: bold;
   border-radius: 10px;
