@@ -2,57 +2,32 @@
 <html lang="en">
 
 <head>
-  <meta charset="UTF-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <title>Daftar Adat</title>
-  <link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons&display=block">
-  <link rel="stylesheet" href="../Adatlist/adatlist.css" />
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Adat Favorit</title>
+    <link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons">
+    <link rel="stylesheet" href="../Favorite/favoritestyle.css">
 </head>
 
 <body>
-  <div class="topnavbar">
-    <a href="../Home/Home.html">Home</a>
-    <a href="../Adatlist/Adatlist.html">Daftar Adat</a>
-    <a href="../Favorite/favorite.html">Favorite</a>
-    <a href="../Aboutus/aboutus.html">About us</a>
-  </div>
-
-  <header>
-    <h1>Daftar-Daftar Adat</h1>
-  </header>
-
-  <div class="searchcontainer">
-    <div class="search">
-      <input class="searchbar" type="text" placeholder="Cari Upacara Adat..." />
-      <i class="material-icons" id="searchbtn">search</i>
-      <div class="suggestionbox">
-        <div class="suggestions"></div>
-      </div>
+    <div class="topnavbar">
+        <a href="../Home/Home.html">Home</a>
+        <a href="../Adatlist/Adatlist.html">Daftar Adat</a>
+        <a href="../Favorite/favorite.html">Favorite</a>
+        <a href="../Aboutus/aboutus.html">About us</a>
     </div>
-    <div class="searchfilter">
-      <i class="material-icons" id="filterbtn">sort</i>
-      <div class="filtercontainer">
-        <div class="filter">
-          <h5>Daerah</h5>
-          <label><input type="checkbox" value="sumatera">Sumatera</label>
-          <label><input type="checkbox" value="java">Jawa</label>
-          <label><input type="checkbox" value="kalimantan">Kalimantan</label>
-          <label><input type="checkbox" value="sulawesi">Sulawesi</label>
-          <label><input type="checkbox" value="sulawesi">Nusa Tenggara</label>
-          <label><input type="checkbox" value="bali">Bali</label>
-          <label><input type="checkbox" value="maluku">Maluku</label>
-          <label><input type="checkbox" value="papua">Papua</label>
-          <h5>Kategori</h5>
-          <label><input type="checkbox" value="adatkelahiran">Kelahiran</label>
-          <label><input type="checkbox" value="Kedewasaan">Kedewasaan</label>
-          <label><input type="checkbox" value="Kematian">Kematian</label>
+
+    <header>
+        <h1>Adat Favoritmu</h1>
+    </header>
+    <div class="emptyfav">
+        <div class="box">
+            <h2>Belum ada yang ditambahkan ke Favorite</h2>
+            <h3>Jelajahi "Daftar Adat"</h3>
+            <h3>dan temukan adat favoritmu</h3>
         </div>
-      </div>
     </div>
-  </div>
 
-
-  <!-- Semua adat dijadikan 1 grid -->
   <section class="adatlistcontainer">
     <div class="adatlist" data-category="adatkelahiran">
       <a href="../Kelahiran/kelahirandetail/mitoni.html">
@@ -61,7 +36,7 @@
           alt="mitoni" />
         <p class="namaadat">Mitoni - Jawa</p>
       </a>
-      <i class="material-icons" id="favorite-icon" data-name="mitoni">favorite_outlined</i>
+      <i class="material-icons" id="favorite-icon" data-name="mitoni">favorite</i>
     </div>
 
     <div class="adatlist" data-category="adatkelahiran">
@@ -70,7 +45,7 @@
           alt="tedhaksiten" />
         <p>Tedhak Siten - Jawa</p>
       </a>
-      <i class="material-icons" id="favorite-icon" data-name="tedhak">favorite_outlined</i>
+      <i class="material-icons" id="favorite-icon" data-name="tedhak">favorite</i>
     </div>
 
     <div class="adatlist" data-category="adatkelahiran">
@@ -79,7 +54,7 @@
         <p>Puput Puser - Jawa</p>
       </a>
       <div></div>
-      <i class="material-icons" id="favorite-icon" data-name="puput">favorite_outlined</i>
+      <i class="material-icons" id="favorite-icon" data-name="puput">favorite</i>
     </div>
 
     <div class="adatlist" data-category="adatkelahiran">
@@ -89,7 +64,7 @@
           alt="Jatakarma Samskara" />
         <p>Jatakarma Samskara - Bali</p>
       </a>
-      <i class="material-icons" id="favorite-icon" data-name="jatakarma">favorite_outlined</i>
+      <i class="material-icons" id="favorite-icon" data-name="jatakarma">favorite</i>
     </div>
 
     <div class="adatlist" data-category="adatkelahiran">
@@ -98,7 +73,7 @@
           alt="molontalo" />
         <p>Upacara Molontalo - Sulawesi</p>
       </a>
-      <i class="material-icons" id="favorite-icon" data-name="molontalo">favorite_outlined</i>
+      <i class="material-icons" id="favorite-icon" data-name="molontalo">favorite</i>
     </div>
 
     <div class="adatlist" data-category="adatkelahiran">
@@ -108,7 +83,7 @@
           alt="medakapi" />
         <p>Medak Api - Nusa Tenggara Barat</p>
       </a>
-      <i class="material-icons" id="favorite-icon" data-name="medak">favorite_outlined</i>
+      <i class="material-icons" id="favorite-icon" data-name="medak">favorite</i>
     </div>
 
     <div class="adatlist" data-category="adatkelahiran">
@@ -118,7 +93,7 @@
           alt="turunmandi" />
         <p>Turun Mandi - Sumatera</p>
       </a>
-      <i class="material-icons" id="favorite-icon" data-name="turun">favorite_outlined</i>
+      <i class="material-icons" id="favorite-icon" data-name="turun">favorite</i>
     </div>
 
     <div class="adatlist" data-category="adatkelahiran">
@@ -128,7 +103,7 @@
           alt="Brokohan" />
         <p>Brokohan - Jawa</p>
       </a>
-      <i class="material-icons" id="favorite-icon" data-name="brokohan">favorite_outlined</i>
+      <i class="material-icons" id="favorite-icon" data-name="brokohan">favorite</i>
     </div>
 
     <div class="adatlist" data-category="adatkelahiran">
@@ -138,7 +113,7 @@
           alt="moana" />
         <p>Moana - Sulawesi</p>
       </a>
-      <i class="material-icons" id="favorite-icon" data-name="moana">favorite_outlined</i>
+      <i class="material-icons" id="favorite-icon" data-name="moana">favorite</i>
     </div>
 
     <div class="adatlist" data-category="adatkelahiran">
@@ -148,7 +123,7 @@
           alt="nenjrangbumi" />
         <p>Nenjrang Bumi - Jawa</p>
       </a>
-      <i class="material-icons" id="favorite-icon" data-name="nenjrangbumi">favorite_outlined</i>
+      <i class="material-icons" id="favorite-icon" data-name="nenjrangbumi">favorite</i>
     </div>
 
     <div class="adatlist" data-category="adatkelahiran">
@@ -158,7 +133,7 @@
           alt="mamoholi" />
         <p>Mamoholi - Sumatera</p>
       </a>
-      <i class="material-icons" id="favorite-icon" data-name="mamoholi">favorite_outlined</i>
+      <i class="material-icons" id="favorite-icon" data-name="mamoholi">favorite</i>
     </div>
 
     <div class="adatlist" data-category="adatkelahiran">
@@ -168,78 +143,78 @@
           alt="ngurisan" />
         <p>Ngurisan - Nusa Tenggara Barat</p>
       </a>
-      <i class="material-icons" id="favorite-icon" data-name="ngurisan">favorite_outlined</i>
+      <i class="material-icons" id="favorite-icon" data-name="ngurisan">favorite</i>
     </div>
 
     <div class="adatlist" data-category="Kedewasaan">
-      <a href="../Kedewasaan/kedewasaandetail/fahombo.html">
+      <a href="../Kedawasaan/kedewasaandetail/fahombo.html">
         <img src="https://getlost.id/wp-content/uploads/2021/07/Indrawan-Ibonk-2.jpg" alt="Fahombo" />
         <p>Fahombo - Sumatera</p>
       </a>
-      <i class="material-icons" id="favorite-icon" data-name="fahombo">favorite_outlined</i>
+      <i class="material-icons" id="favorite-icon" data-name="fahombo">favorite</i>
     </div>
 
     <div class="adatlist" data-category="Kedewasaan">
-      <a href="../Kedewasaan/kedewasaandetail/kerikgigi.html">
+      <a href="../Kedawasaan/kedewasaandetail/kerikgigi.html">
         <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQOv8IMvuH0y15QgFp44sXZBkamiteU0wo6Xg&s"
           alt="Kerik Gigi" />
         <p>Kerik Gigi - Sumatera</p>
       </a>
-      <i class="material-icons" id="favorite-icon" data-name="kerik">favorite_outlined</i>
+      <i class="material-icons" id="favorite-icon" data-name="kerik">favorite</i>
     </div>
 
     <div class="adatlist" data-category="Kedewasaan">
-      <a href="../Kedewasaan/kedewasaandetail/posuo.html">
+      <a href="../Kedawasaan/kedewasaandetail/posuo.html">
         <img
           src="https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEg7Tq0FNWBhlMYRRhWLdmTWgJ3H9gnjmuVg5lUArH9-mrRZ9mNzudcD7U_0gAvNZXAZvb634_IksIrY4rCbQzKqV0t61JSMZHKSjQzzXxOW7Jl1fnel0lFbaMEBKuwlPnOvrjwWCmSu13M/s1600/Para+gadis+Buton+usia+dipingit+%2528posuo%2529+massal+di+Festival+Budaya+Tua+Buton+2015.+foto+adji+k.jpg"
           alt="Posuo" />
         <p>Posuo - Sulawesi</p>
       </a>
-      <i class="material-icons" id="favorite-icon" data-name="posuo">favorite_outlined</i>
+      <i class="material-icons" id="favorite-icon" data-name="posuo">favorite</i>
     </div>
 
     <div class="adatlist" data-category="Kedewasaan">
-      <a href="../Kedewasaan/kedewasaandetail/pataheri.html">
+      <a href="../Kedawasaan/kedewasaandetail/pataheri.html">
         <img src="https://dimensiindonesia.com/wp-content/uploads/2022/06/images-10.jpeg" alt="Pataheri" />
         <p>Pataheri - Maluku</p>
       </a>
-      <i class="material-icons" id="favorite-icon" data-name="pataheri">favorite_outlined</i>
+      <i class="material-icons" id="favorite-icon" data-name="pataheri">favorite</i>
     </div>
 
     <div class="adatlist" data-category="Kedewasaan">
-      <a href="../Kedewasaan/kedewasaandetail/pinamou.html">
+      <a href="../Kedawasaan/kedewasaandetail/pinamou.html">
         <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSO27WLMvfHoKoQiSFhmga5Yjbo82f0SB42yg&s"
           alt="Pinamou" />
         <p>Pinamou - Maluku</p>
       </a>
-      <i class="material-icons" id="favorite-icon" data-name="pinamou">favorite_outlined</i>
+      <i class="material-icons" id="favorite-icon" data-name="pinamou">favorite</i>
     </div>
 
     <div class="adatlist" data-category="Kedewasaan">
-      <a href="../Kedewasaan/kedewasaandetail/supitan.html">
+      <a href="../Kedawasaan/kedewasaandetail/supitan.html">
         <img src="https://assets.pikiran-rakyat.com/crop/0x0:0x0/750x500/photo/2023/02/28/2488863551.jpg"
           alt="Supitan" />
         <p>Supitan - Jawa</p>
       </a>
-      <i class="material-icons" id="favorite-icon" data-name="supitan">favorite_outlined</i>
+      <i class="material-icons" id="favorite-icon" data-name="supitan">favorite</i>
     </div>
 
     <div class="adatlist" data-category="Kedewasaan">
-      <a href="../Kedewasaan/kedewasaandetail/mepandes.html">
+      <a href="../Kedawasaan/kedewasaandetail/mepandes.html">
         <img src="https://finnsbeachclub.com/wp-content/uploads/2024/09/2311-646791017168e.png" alt="Mepandes" />
         <p>Mepandes - Bali</p>
       </a>
-      <i class="material-icons" id="favorite-icon" data-name="mepandes">favorite_outlined</i>
+      <i class="material-icons" id="favorite-icon" data-name="mepandes">favorite</i>
     </div>
 
     <div class="adatlist" data-category="Kedewasaan">
-      <a href="../Kedewasaan/kedewasaandetail/rakeho.html">
+      <a href="../Kedawasaan/kedewasaandetail/rakeho.html">
         <img
           src="https://wahananews.co/photo/berita/dir022022/kenali-upacara-rakeho-ritual-adat-sambut-kedewasaan-pria-suku-kulawi-sulteng_q0O4r0Z8v6.jpg"
           alt="Rakeho" />
         <p>Rakeho - Sulawesi</p>
       </a>
-      <i class="material-icons" id="favorite-icon" data-name="rakeho">favorite_outlined</i>
+      <i class="material-icons" id="favorite-icon" data-name="rakeho">favorite</i>
     </div>
 
     <div class="adatlist" data-category="Kematian">
@@ -249,7 +224,7 @@
           alt="rambusolo" />
         <p>Rambu Solo - Sulawesi</p>
       </a>
-      <i class="material-icons" id="favorite-icon" data-name="rambu">favorite_outlined</i>
+      <i class="material-icons" id="favorite-icon" data-name="rambu">favorite</i>
     </div>
 
     <div class="adatlist" data-category="Kematian">
@@ -259,7 +234,7 @@
           alt="Brobosan" />
         <p>Brobosan - Jawa</p>
       </a>
-      <i class="material-icons" id="favorite-icon" data-name="brobosan">favorite_outlined</i>
+      <i class="material-icons" id="favorite-icon" data-name="brobosan">favorite</i>
     </div>
 
     <div class="adatlist" data-category="Kematian">
@@ -269,7 +244,7 @@
           alt="ngaben" />
         <p>Ngaben - Bali</p>
       </a>
-      <i class="material-icons" id="favorite-icon" data-name="ngaben">favorite_outlined</i>
+      <i class="material-icons" id="favorite-icon" data-name="ngaben">favorite</i>
     </div>
 
     <div class="adatlist" data-category="Kematian">
@@ -279,7 +254,7 @@
           alt="saurmatua" />
         <p>Saur Matua - Sumatera</p>
       </a>
-      <i class="material-icons" id="favorite-icon" data-name="saur">favorite_outlined</i>
+      <i class="material-icons" id="favorite-icon" data-name="saur">favorite</i>
     </div>
 
     <div class="adatlist" data-category="Kematian">
@@ -289,7 +264,7 @@
           alt="mepasah" />
         <p>Mepasah - Bali</p>
       </a>
-      <i class="material-icons" id="favorite-icon" data-name="mepasah">favorite_outlined</i>
+      <i class="material-icons" id="favorite-icon" data-name="mepasah">favorite</i>
     </div>
 
     <div class="adatlist" data-category="Kematian">
@@ -298,7 +273,7 @@
           alt="tiwah" />
         <p>Tiwah - Kalimantan</p>
       </a>
-      <i class="material-icons" id="favorite-icon" data-name="tiwah">favorite_outlined</i>
+      <i class="material-icons" id="favorite-icon" data-name="tiwah">favorite</i>
     </div>
 
     <div class="adatlist" data-category="Kematian">
@@ -308,13 +283,14 @@
           alt="ikipalek" />
         <p>Iki Palek - Papua</p>
       </a>
-      <i class="material-icons" id="favorite-icon" data-name="iki">favorite_outlined</i>
+      <i class="material-icons" id="favorite-icon" data-name="iki">favorite</i>
     </div>
   </section>
 
-  <script src="https://code.jquery.com/jquery-3.7.1.js" integrity="sha256-eKhayi8LEQwp4NKxN+CfCh+3qOVUtJn3QNZ0TciWLP4="
-    crossorigin="anonymous"></script>
-  <script src="adatlistscript.js"></script>
+    <script src="https://code.jquery.com/jquery-3.7.1.js"
+        integrity="sha256-eKhayi8LEQwp4NKxN+CfCh+3qOVUtJn3QNZ0TciWLP4=" crossorigin="anonymous"></script>
+
+    <script src="Adatlist.html"></script>
 </body>
 
 </html>
