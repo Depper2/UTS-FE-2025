@@ -1,39 +1,39 @@
 @font-face {
-    font-family: 'cursive';
-    src: url(../Home/fonts/Belleza-Regular.ttf);
+  font-family: "cursive";
+  src: url(../Home/fonts/Belleza-Regular.ttf);
 }
 @font-face {
-    font-family: 'java';
-    src: url(../Home/fonts/Upakarti-yxqe.ttf);
+  font-family: "java";
+  src: url(../Home/fonts/Upakarti-yxqe.ttf);
 }
 
-body{
+body {
   background-color: rgb(141, 77, 21);
   margin: 0;
   padding: 0;
 }
 
-.topnavbar{
-    display: flex;
-    justify-content: right;
-    padding: 15px;
-    gap: 30px;
+.topnavbar {
+  display: flex;
+  justify-content: right;
+  padding: 15px;
+  gap: 30px;
 }
 
-.topnavbar a{
-    background-color: white;
-    padding: 10px 20px;
-    border-radius: 10px;
-    color: black;
-    text-decoration: none;
-    font-size: 20px;
-    font-family: 'java';
+.topnavbar a {
+  background-color: white;
+  padding: 10px 20px;
+  border-radius: 10px;
+  color: black;
+  text-decoration: none;
+  font-size: 20px;
+  font-family: "java";
 }
 
-.topnavbar a:hover{
-    background-color:  black;   
-    color: white;
-    transition: 0.3s;
+.topnavbar a:hover {
+  background-color: black;
+  color: white;
+  transition: 0.3s;
 }
 
 header {
@@ -43,7 +43,7 @@ header {
 }
 
 header h1 {
-  font-family: 'cursive';
+  font-family: "cursive";
   font-size: 48px;
   color: rgb(141, 77, 21);
   margin: 0;
@@ -63,32 +63,36 @@ header h1 {
 
 .adatlistcontainer {
   display: grid;
-  grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+  justify-content: center;
+  grid-template-columns: repeat(auto-fit, minmax(200px, 0fr));
   gap: 25px;
 }
 
 .adatlist {
+  display: flex;
+  flex-wrap: wrap;
   background-color: white;
   border-radius: 12px;
   text-align: center;
   padding: 15px;
-  box-shadow: 0 4px 12px rgba(0,0,0,0.2);
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.2);
   transition: transform 0.3s ease, box-shadow 0.3s ease;
+  position: relative;
 }
 
-.adatlist a{
+.adatlist a {
   text-decoration: none;
   color: black;
 }
 
-.adatlist a:hover{
+.adatlist a:hover {
   text-decoration: none;
   color: brown;
 }
 
 .adatlist:hover {
   transform: translateY(-8px);
-  box-shadow: 0 6px 18px rgba(0,0,0,0.3);
+  box-shadow: 0 6px 18px rgba(0, 0, 0, 0.3);
 }
 
 .adatlist img {
@@ -100,8 +104,117 @@ header h1 {
 }
 
 .adatlist p {
-  font-family: 'java';
+  font-family: "java";
   font-size: 20px;
   margin: 0;
 }
+.searchcontainer {
+  width: 100%;
+  margin: 25px 15px;
+  margin-bottom: 0;
+  justify-content: center;
+  display: flex;
+}
 
+.search {
+  width: fit-content;
+  font-family: "cursive";
+  position: relative;
+}
+
+.searchbar {
+  width: 350px;
+  padding: 15px;
+  padding-right: 15px;
+  border-radius: 10px;
+  border: none;
+  font-size: 16px;
+}
+#searchbtn {
+  border-radius: 10px;
+  padding: 10px;
+  color: black;
+  background-color: transparent;
+  font-size: 25px;
+  cursor: pointer;
+  position: absolute;
+  top: 0;
+  right: 0;
+  transition: 250ms;
+}
+
+#searchbtn:hover {
+  transform: scale(1.1);
+}
+
+#filterbtn {
+  border: 3px solid;
+  width: fit-content;
+  color: rgb(141, 77, 21);
+  padding: 6px;
+  margin-top: 3px;
+  font-size: 25px;
+  font-weight: bold;
+  border-radius: 10px;
+  background-color: white;
+  transition: 200ms;
+}
+
+h5 {
+  font-size: 17px;
+  margin: 0;
+}
+
+.filtercontainer {
+  border: 3px solid;
+  font-family: "cursive";
+  margin-right: 15px;
+  color: white;
+  background-color: rgb(141, 77, 21);
+  padding: 10px;
+  border-radius: 10px;
+  position: absolute;
+  z-index: 1;
+}
+
+.filter {
+  display: grid;
+  justify-content: center;
+  gap: 5px;
+}
+
+#filterbtn:hover {
+  border: 3px solid;
+  cursor: pointer;
+  transform: scale(1.1);
+}
+
+.suggest {
+  border-radius: 10px;
+}
+
+.suggestions {
+  width: 96.5%;
+  padding: 10px;
+  border-radius: 10px;
+  background-color: white;
+  display: none;
+  position: absolute;
+  z-index: 1;
+}
+
+.highlighted {
+  font-weight: 600;
+  color: rgb(141, 77, 21);
+}
+
+#favorite-icon {
+  transition: 250ms;
+  margin-top: 5px;
+}
+
+#favorite-icon:hover {
+  transform: scale(1.2);
+  color: rgb(141, 77, 21);
+  cursor: pointer;
+}
