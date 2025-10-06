@@ -1,52 +1,94 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
-    <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Document</title>
-    <link rel="stylesheet" href="../Aboutus/aboutusstyle.css" />
-  </head>
-  <body>
-    <div class="topnavbar">
-      <a href="../Home/Home.html">Home</a>
-      <a href="../Makanan/makanan.html">Makanan</a>
-      <a href="../Search/search.html">Cari</a>
-      <a href="../Aboutus/aboutus.html">About us</a>
-      <!--searchbar taro disini-->
 
-    </div>
-    <div class="aboutuscontainer">
-      <div class="devinprofile">
-        <!--DevinProfile-->
-        <div class="fotodevin">
-          <img src="Aboutusimg/devin.png" alt="devin" />
-        </div>
-        
-        <div class="selfdesc">
-          <p>Nama : Devin GIovano</p>
-          <p>Berperan : Pelaksanaan HTML,CSS dan JS</p>
-          <p>Motivasi : jangan ke taiwan</p>
-        </div>
-        <div class="contacts">
-          <p>Socials/Follow me</p>
-          <a
-            href="https://www.instagram.com/dev1g_/"
-            target="_blank"
-            class="iglink"
-          >
-            <img src="aboutusimg/iglogo.png" alt="Instagram" width="24" />
-            <span>@Dev1g_</span>
-          </a>
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Document</title>
+  <link rel="stylesheet" href="../Aboutus/aboutusstyle.css" />
+</head>
 
-          <p class="wanum">
-            <img src="aboutusimg/walogo.png" alt="WhatsApp" width="24" />
-            +62 812-3456-7890
-          </p>
-        </div>
+<body>
+  <div class="topnavbar">
+    <a href="../Home/Home.html">Home</a>
+    <a href="../Adatlist/Adatlist.html">Daftar Adat</a>
+    <a href="../Favorite/favorite.html">Favorite</a>
+    <a href="../Aboutus/aboutus.html">About us</a>
+
+  </div>
+  <div class="aboutuscontainer">
+    <div class="devinprofile">
+      <!--DevinProfile-->
+      <div class="fotodevin">
+        <img src="Aboutusimg/devin.png" alt="devin" />
       </div>
 
-      <!--Justinprofile-->
-      <div></div>
+      <div class="selfdesc">
+        <p>Nama : Devin Giovano</p>
+        <p>Berperan : Pelaksanaan HTML,CSS dan JS</p>
+        <p>Motivasi : jangan ke taiwan</p>
+      </div>
+      <div class="contacts">
+        <p>Socials/Follow me</p>
+        <a href="https://www.instagram.com/dev1g_/" target="_blank" class="iglink">
+          <img src="aboutusimg/iglogo.png" alt="Instagram" width="24" />
+          <span>@Dev1g_</span>
+        </a>
+
+        <p class="wanum">
+          <img src="aboutusimg/walogo.png" alt="WhatsApp" width="24" />
+          +62 812-3456-7890
+        </p>
+      </div>
     </div>
-  </body>
+
+    <!--Justinprofile-->
+    <div class="justinprofile">
+      <div class="fotojustin">
+        <img src="Aboutusimg/justin.jpg" alt="justin" />
+      </div>
+
+      <div class="selfdesc">
+        <p>Nama : Justin Virya Rusly</p>
+        <p>Berperan : Pelaksanaan HTML,CSS dan JS</p>
+        <p>Motivasi : Lorem ipsum dolor sit </p>
+      </div>
+
+      <div class="contacts">
+        <p>Socials/Follow me</p>
+        <a href="https://www.instagram.com/dev1g_/" target="_blank" class="iglink">
+          <img src="aboutusimg/iglogo.png" alt="Instagram" width="24" />
+          <span>@Dev1g_</span>
+        </a>
+
+        <p class="wanum">
+          <img src="aboutusimg/walogo.png" alt="WhatsApp" width="24" />
+          +62 812-3456-7890
+        </p>
+      </div>
+    </div>
+  </div>
+
+  <div class="commentcontainer">
+    <div class="commentbox">
+      <h1>Komentar</h1>
+      <p>Berikan komentar, kritik, atau saran untuk perkembangan website lebih baik</p>
+      <input type="text" class="nama" placeholder="Nama (5 hingga 15 karakter)" maxlength="15">
+      <textarea class="komentar" placeholder="komentar (maksimal 128 karakter)" maxlength="128"></textarea>
+      <button class="submitbtn">Kirim</button>
+      <div class="kolomkomenbox">
+        <h2>Kolom Komentar</h2>
+        <h3 class="jumlah"></h3>
+        <h5 class="empty">Belum ada komentar</h5>
+        <div class="kolomkomen"></div>
+      </div>
+    </div>
+  </div>
+
+
+  <script src="https://code.jquery.com/jquery-3.7.1.js" integrity="sha256-eKhayi8LEQwp4NKxN+CfCh+3qOVUtJn3QNZ0TciWLP4="
+    crossorigin="anonymous"></script>
+  <script src="aboutusscript.js"></script>
+</body>
+
 </html>
