@@ -20,7 +20,6 @@ $(document).ready(function () {
 
     $favorite.on("click", function () {
         let favorited = $(this).data("name");
-        let favicon=JSON.parse(localStorage.getItem("iconfav"));
 
         $(".adatlistcontainer .adatlist").each(function () {
             if (fav.includes(favorited)) {
