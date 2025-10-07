@@ -56,21 +56,26 @@ $(document).ready(function () {
         }
     });
 
-    const $checkboxed = $(".searchfilter .filtercontainer input[type='checkbox']");
-
-    $checkboxed.on("change", function () {
-        let checkedValues = $(".searchfilter .filtercontainer input[type='checkbox']:checked").map(function () {
+    $(".searchfilter .filtercontainer input[type='checkbox']").on("change", function () {
+        let filterdaerah = $(".searchfilter .filterdaerah input:checked").map(function () {
+            return $(this).val().toLowerCase();
+        }).get();
+        let filterkategori = $(".searchfilter .filterkategori input:checked").map(function () {
             return $(this).val();
         }).get();
+
         $adat_list.each(function () {
-            let category = $(this).data("category");
-            let daerah_adat = $(this).find("p").text().toLowerCase();
-            if (checkedValues.length === 0 || daerah_adat.includes(checkedValues) || category.includes(checkedValues)) {
+            let daerah = $(this).find("p").text().toLowerCase().split(' ');
+            let kategori = $(this).data("category");
+
+            if ((filterdaerah.length === 0 || filterdaerah.some(f => daerah.includes(f))) && (filterkategori.length === 0 || filterkategori.some(f => kategori.includes(f)))) {
                 $(this).show();
-            } else {
+            }
+            else {
                 $(this).hide();
             }
         });
+
     });
 
     $filterbtn.on("click", function () {

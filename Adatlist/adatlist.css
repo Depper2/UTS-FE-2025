@@ -179,9 +179,8 @@ h5 {
   z-index: 1;
 }
 
-.filter {
+.filterdaerah, .filterkategori {
   display: grid;
-  justify-content: center;
   gap: 5px;
 }
 
