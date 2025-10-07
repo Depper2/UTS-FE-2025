@@ -15,7 +15,7 @@
 
 html, body {
   background-color: maroon;
-  font-family: "cursive", sans-serif;
+  font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
   overflow-x: hidden;
 }
 
@@ -92,6 +92,8 @@ html, body {
 .contacts {
   margin-top: 10px;
   background-color: maroon;
+  justify-content: center;
+  align-items: center;
   border: 3px solid black;
   border-radius: 10px;
   padding: 10px;
@@ -117,7 +119,6 @@ html, body {
   color: black;
 }
 
-/* Comment Section */
 .commentcontainer {
   width: 100%;
   display: flex;
