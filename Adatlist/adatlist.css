@@ -131,6 +131,7 @@ header h1 {
   border: none;
   font-size: 16px;
 }
+
 #searchbtn {
   border-radius: 10px;
   padding: 10px;
@@ -179,7 +180,7 @@ h5 {
   z-index: 1;
 }
 
-.filterdaerah, .filterkategori {
+.filterdaerah,.filterkategori {
   display: grid;
   gap: 5px;
 }
