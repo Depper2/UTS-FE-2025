@@ -34,6 +34,8 @@ body {
   background-color: black;
   color: white;
   transition: 0.3s;
+  transform: translateY(-3px);
+  box-shadow: 0 4px 8px black;
 }
 
 header {
@@ -49,9 +51,6 @@ header h1 {
   margin: 0;
 }
 
-.adatlistcontainer {
-  padding: 40px 30px;
-}
 
 .adatlistcontainer h2 {
   font-size: 32px;
@@ -63,9 +62,13 @@ header h1 {
 
 .adatlistcontainer {
   display: grid;
-  justify-content: center;
-  grid-template-columns: repeat(auto-fit, minmax(200px, 0fr));
+  justify-items: center;
+  grid-template-columns: repeat(auto-fill, minmax(250px, 1fr));
   gap: 25px;
+  padding: 40px 30px;
+  max-width: 1200px;
+  margin: 0 auto;
+  box-sizing: border-box;
 }
 
 .adatlist {
@@ -141,4 +144,81 @@ header h1 {
 .box h3 {
   margin: 0;
   margin-bottom: 15px;
+}
+
+@media (max-width: 1024px) {
+  .topnavbar {
+    padding: 10px 20px;
+    gap: 20px;
+  }
+
+  .topnavbar a {
+    font-size: 18px;
+    padding: 8px 15px;
+  }
+
+  header h1 {
+    font-size: 40px;
+  }
+
+  .adatlistcontainer {
+    padding: 30px 20px;
+    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+    gap: 20px;
+  }
+
+  .adatlist img {
+    height: 140px;
+  }
+}
+
+@media (max-width: 768px) {
+  .topnavbar {
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 15px;
+    gap: 10px;
+  }
+
+  .topnavbar a {
+    width: 80%;
+    text-align: center;
+    box-sizing: border-box;
+    font-size: 18px;
+  }
+
+  header h1 {
+    font-size: 32px;
+    padding: 0 10px;
+  }
+
+  .adatlistcontainer {
+    padding: 20px 15px;
+    grid-template-columns: repeat(2, 1fr); 
+    gap: 15px;
+  }
+
+  .adatlist img {
+    height: 120px;
+  }
+
+  .adatlist p {
+    font-size: 16px;
+  }
+
+  .emptyfav .box {
+    width: 80%;
+  }
+}
+
+@media (max-width: 480px) {
+  .adatlistcontainer {
+    grid-template-columns: 1fr;
+    padding: 10px;
+  }
+    
+  .adatlist img {
+    height: 180px;
+  }
 }
