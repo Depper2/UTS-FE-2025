@@ -47,7 +47,6 @@ html, body {
   color: white;
 }
 
-/* Profile Container */
 .aboutuscontainer {
   display: flex;
   justify-content: center;
@@ -59,9 +58,7 @@ html, body {
   width: 100%;
 }
 
-/* Individual Profile Cards */
-.devinprofile,
-.justinprofile {
+.devinprofile,.justinprofile {
   width: 380px;
   max-width: 90%;
   color: white;
@@ -74,8 +71,7 @@ html, body {
   border: 2px solid black;
 }
 
-.fotodevin img,
-.fotojustin img {
+.fotodevin img,.fotojustin img {
   width: 260px;
   height: 260px;
   border-radius: 20px;

@@ -1,9 +1,9 @@
-const urlParams = new URLSearchParams(window.location.search);
-const adatId = urlParams.get('adat');
+  const urlParams = new URLSearchParams(window.location.search);
+  const adatId = urlParams.get('adat');
 
-if (!urlParams.has('adat')) {
-  window.location.href = window.location.pathname + '?adat=' + adatId;
-}
+  if (!urlParams.has('adat')) {
+    window.location.href = window.location.pathname + '?adat=' + adatId;
+  }
 
 fetch('nikahdetail.json')
   .then(res => res.json())
@@ -24,10 +24,10 @@ fetch('nikahdetail.json')
     document.getElementById('videoLink').href = adat.video;
 
     const gambarEl = document.getElementById("gambarUtama");
-    gambarEl.src = adat.gambarUtama || (adat.galeri?.[0] ?? "default.jpg");
+    gambarEl.src = adat.gambarUtama;
     gambarEl.alt = `Foto ${adat.nama}`;
 
-    const galeriContainer = document.getElementById('galeriContainer');
+    const galeriContainer = document.getElementById('galeriContainer'); 
     const galeriSection = document.querySelector('.galeri');
 
     if (adat.galeri && adat.galeri.length > 0) {
@@ -63,4 +63,3 @@ fetch('nikahdetail.json')
       galeriSection.style.display = 'none';
     }
   })
-  .catch(err => console.error("Error fetch JSON:", err));
