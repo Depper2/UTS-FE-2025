@@ -23,6 +23,7 @@ body {
   padding: 10px;
   gap: 30px;
 }
+
 .topnavbar a {
   background-color: white;
   padding: 10px 20px;
@@ -37,6 +38,8 @@ body {
 .topnavbar a:hover {
   background-color: black;
   color: white;
+  transform: translateY(-3px);
+  box-shadow: 0 4px 8px black;
 }
 
 /*header*/
@@ -48,7 +51,7 @@ body {
   align-items: center;
   color: white;
   text-align: center;
-  background: url("https://cdn.ngopibareng.id/uploads/2022/2022-01-12/uniknya-tradisi-potong-gigi-di-bali-sebagai-tanda-kedewasaan--thumbnail-386") center/cover no-repeat;
+  background: url("https://kamboja.co.id/wp-content/uploads/2021/06/biaya-ngaben-di-bali.jpg") center/cover no-repeat;
   overflow: hidden;
   height: 600px;
   border: 3px solid black;
@@ -108,4 +111,96 @@ body {
   font-weight: bold;
   font-size: 16px;
   color: #333;
+}
+
+
+@media (max-width: 1024px) {
+  .topnavbar {
+    padding: 10px 20px;
+    gap: 20px;
+  }
+  
+  .topnavbar a {     
+    font-size: 16px;
+    padding: 8px 15px;  
+  }
+      
+  .headerkel {
+    height: 500px;
+  }
+      
+  .headerkel h1 {
+    font-size: 50px;
+  }
+
+  .deschead {
+    font-size: 18px;
+    padding: 0 20px;
+  }
+      
+  .kelcontainer {
+    grid-template-columns: repeat(auto-fill, minmax(220px, 1fr));
+    padding: 30px;
+    gap: 20px;
+  }
+      
+  .kelcontainer img {
+    height: 180px;
+  }
+}
+
+@media (max-width: 768px) {
+.topnavbar {
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 15px;
+      gap: 5px;
+  }
+
+  .topnavbar a {
+    width: 100%;
+    text-align: center;
+    box-sizing: border-box;
+    margin: 5px 0; 
+  }
+
+  .headerkel {
+    height: 400px;
+    border: none;
+  }
+
+  .headerkel h1 {
+    font-size: 40px;
+  }
+
+  .deschead {
+    font-size: 16px;
+    padding: 0 15px;
+  }
+
+  .kelcontainer {
+    grid-template-columns: repeat(2, 1fr); 
+    padding: 20px;
+    gap: 15px;
+  }
+
+  .kelcontainer img {
+    height: 150px;
+  }
+
+  .kelcontainer p {
+    font-size: 15px;
+  }
+}
+
+@media (max-width: 480px) {
+  .kelcontainer {
+    grid-template-columns: 1fr;
+    padding: 15px;
+  }
+
+  .kelcontainer img {
+    height: 250px;
+  }
 }

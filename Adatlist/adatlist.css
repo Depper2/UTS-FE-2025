@@ -196,13 +196,17 @@ h5 {
 }
 
 .suggestions {
-  width: 96.5%;
+  width: 100%;
   padding: 10px;
   border-radius: 10px;
   background-color: white;
   display: none;
   position: absolute;
-  z-index: 1;
+  top: 100%;
+  left: 0;
+  box-sizing: border-box;
+  z-index: 5;
+  box-shadow: 0 4px 8px rgba(0,0,0,0.15);
 }
 
 .highlighted {
@@ -219,4 +223,147 @@ h5 {
   transform: scale(1.2);
   color: rgb(141, 77, 21);
   cursor: pointer;
+}
+
+@media (max-width: 1024px) {
+  .topnavbar {
+    padding: 10px 20px;
+    gap: 20px;
+  }
+  
+  .topnavbar a {
+    font-size: 18px;
+    padding: 8px 15px;
+  }
+  
+  header h1 {
+    font-size: 40px;
+  }
+
+  .searchbar {
+    width: 300px;
+  }
+  
+  .adatlistcontainer {
+    padding: 30px 20px;
+    grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
+    gap: 20px;
+  }
+  
+  .adatlist img {
+    height: 140px;
+  }
+}
+
+@media (max-width: 768px) {
+  
+  .topnavbar {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    justify-content: center;
+    align-items: center;
+    gap: 15px;
+    padding: 15px 10px;
+  }
+
+  .topnavbar a {
+    text-align: center;
+    width: 100%;
+    font-size: 18px;
+    padding: 10px;
+    box-sizing: border-box;
+  }
+  
+  header h1 {
+    font-size: 32px;
+    padding: 0 10px;
+  }
+  
+  .searchcontainer {
+    position: relative;
+    margin: 20px 10px; 
+  }
+
+.search {
+  width: fit-content;
+  font-family: "cursive";
+  position: relative;
+}
+
+  .searchbar {
+    width: 100%;
+    max-width: 100%;
+    box-sizing: border-box;
+    padding-right: 50px;
+  }
+  
+  #filterbtn {
+    font-size: 20px;
+    padding: 8px;
+    position: static; 
+    margin-left: 10px;
+  }
+
+  .filtercontainer {
+    position: absolute;
+    top: 100px;
+    left: 50%;
+    transform: translateX(-50%);
+    margin-right: 0;
+  }
+
+  .adatlistcontainer {
+    padding: 20px 15px;
+    grid-template-columns: repeat(2, 1fr); 
+    gap: 15px;
+  }
+
+  .adatlist img {
+    height: 120px;
+  }
+
+  .adatlist p {
+    font-size: 16px;
+  }
+}
+
+@media (max-width: 480px) {
+  header h1 {
+    font-size: 28px;
+  }
+
+   .searchcontainer {
+    flex-direction: column;
+    align-items: center;
+    margin: 15px 0;
+  }
+
+  .search {
+    width: fit-content;
+    font-family: "cursive";
+    position: relative;
+  }
+
+  #filterbtn {
+    margin-left: 0;
+    align-self: center;
+    font-size: 25px;
+  }
+
+  .filtercontainer {
+    top: initial;
+    left: 50%;
+    transform: translateX(-50%);
+    width: 80%;
+    box-sizing: border-box;
+  }
+  
+  .adatlistcontainer {
+    grid-template-columns: 1fr;
+    padding: 10px;
+  }
+
+  .adatlist img {
+    height: 180px;
+  }
 }
