@@ -34,8 +34,6 @@ body {
   background-color: black;
   color: white;
   transition: 0.3s;
-  transform: translateY(-3px);
-  box-shadow: 0 4px 8px black;
 }
 
 header {
@@ -51,6 +49,9 @@ header h1 {
   margin: 0;
 }
 
+.adatlistcontainer {
+  padding: 40px 30px;
+}
 
 .adatlistcontainer h2 {
   font-size: 32px;
@@ -62,13 +63,9 @@ header h1 {
 
 .adatlistcontainer {
   display: grid;
-  justify-items: center;
-  grid-template-columns: repeat(auto-fill, minmax(250px, 1fr));
+  justify-content: center;
+  grid-template-columns: repeat(auto-fit, minmax(200px, 0fr));
   gap: 25px;
-  padding: 40px 30px;
-  max-width: 1200px;
-  margin: 0 auto;
-  box-sizing: border-box;
 }
 
 .adatlist {
@@ -112,11 +109,114 @@ header h1 {
   font-size: 20px;
   margin: 0;
 }
+.searchcontainer {
+  width: 100%;
+  margin: 25px 15px;
+  margin-bottom: 0;
+  justify-content: center;
+  display: flex;
+}
+
+.search {
+  width: fit-content;
+  font-family: "cursive";
+  position: relative;
+}
+
+.searchbar {
+  width: 350px;
+  padding: 15px;
+  padding-right: 15px;
+  border-radius: 10px;
+  border: none;
+  font-size: 16px;
+}
+
+#searchbtn {
+  border-radius: 10px;
+  padding: 10px;
+  color: black;
+  background-color: transparent;
+  font-size: 25px;
+  cursor: pointer;
+  position: absolute;
+  top: 0;
+  right: 0;
+  transition: 250ms;
+}
+
+#searchbtn:hover {
+  transform: scale(1.1);
+}
+
+#filterbtn {
+  border: 3px solid;
+  width: fit-content;
+  color: rgb(141, 77, 21);
+  padding: 8px;
+  margin-top: 3px;
+  margin-left: 3px;
+  font-size: 25px;
+  font-weight: bold;
+  border-radius: 10px;
+  background-color: white;
+  transition: 200ms;
+}
+
+h5 {
+  font-size: 17px;
+  margin: 0;
+}
+
+.filtercontainer {
+  border: 3px solid;
+  font-family: "cursive";
+  margin-right: 15px;
+  color: white;
+  background-color: rgb(141, 77, 21);
+  padding: 10px;
+  border-radius: 10px;
+  position: absolute;
+  z-index: 1;
+}
+
+.filter {
+  display: grid;
+}
+
+#filterbtn:hover {
+  border: 3px solid;
+  cursor: pointer;
+  transform: scale(1.1);
+}
+
+.suggest {
+  border-radius: 10px;
+}
+
+.suggestions {
+  width: 100%;
+  padding: 10px;
+  border-radius: 10px;
+  background-color: white;
+  display: none;
+  position: absolute;
+  top: 100%;
+  left: 0;
+  box-sizing: border-box;
+  z-index: 5;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.15);
+}
+
+.highlighted {
+  font-weight: 600;
+  color: rgb(141, 77, 21);
+}
 
 #favorite-icon {
-  color: rgb(141, 77, 21);
-  margin-top: 5px;
   transition: 250ms;
+  margin-top: 5px;
+  color: rgb(141, 77, 21);
 }
 
 #favorite-icon:hover {
@@ -163,7 +263,7 @@ header h1 {
 
   .adatlistcontainer {
     padding: 30px 20px;
-    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+    grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
     gap: 20px;
   }
 
@@ -174,18 +274,20 @@ header h1 {
 
 @media (max-width: 768px) {
   .topnavbar {
-    flex-direction: column;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
     justify-content: center;
     align-items: center;
-    padding: 15px;
-    gap: 10px;
+    gap: 15px;
+    padding: 15px 10px;
   }
 
   .topnavbar a {
-    width: 80%;
     text-align: center;
-    box-sizing: border-box;
+    width: 100%;
     font-size: 18px;
+    padding: 10px;
+    box-sizing: border-box;
   }
 
   header h1 {
@@ -195,7 +297,7 @@ header h1 {
 
   .adatlistcontainer {
     padding: 20px 15px;
-    grid-template-columns: repeat(2, 1fr); 
+    grid-template-columns: repeat(2, 1fr);
     gap: 15px;
   }
 
@@ -206,18 +308,18 @@ header h1 {
   .adatlist p {
     font-size: 16px;
   }
-
-  .emptyfav .box {
-    width: 80%;
-  }
 }
 
 @media (max-width: 480px) {
+  header h1 {
+    font-size: 28px;
+  }
+
   .adatlistcontainer {
     grid-template-columns: 1fr;
     padding: 10px;
   }
-    
+
   .adatlist img {
     height: 180px;
   }

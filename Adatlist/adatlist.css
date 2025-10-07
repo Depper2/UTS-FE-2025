@@ -180,9 +180,8 @@ h5 {
   z-index: 1;
 }
 
-.filterdaerah,.filterkategori {
+.filter {
   display: grid;
-  gap: 5px;
 }
 
 #filterbtn:hover {
@@ -206,7 +205,7 @@ h5 {
   left: 0;
   box-sizing: border-box;
   z-index: 5;
-  box-shadow: 0 4px 8px rgba(0,0,0,0.15);
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.15);
 }
 
 .highlighted {
@@ -230,12 +229,12 @@ h5 {
     padding: 10px 20px;
     gap: 20px;
   }
-  
+
   .topnavbar a {
     font-size: 18px;
     padding: 8px 15px;
   }
-  
+
   header h1 {
     font-size: 40px;
   }
@@ -243,20 +242,19 @@ h5 {
   .searchbar {
     width: 300px;
   }
-  
+
   .adatlistcontainer {
     padding: 30px 20px;
     grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
     gap: 20px;
   }
-  
+
   .adatlist img {
     height: 140px;
   }
 }
 
 @media (max-width: 768px) {
-  
   .topnavbar {
     display: grid;
     grid-template-columns: repeat(2, 1fr);
@@ -273,22 +271,22 @@ h5 {
     padding: 10px;
     box-sizing: border-box;
   }
-  
+
   header h1 {
     font-size: 32px;
     padding: 0 10px;
   }
-  
+
   .searchcontainer {
     position: relative;
-    margin: 20px 10px; 
+    margin: 20px 10px;
   }
 
-.search {
-  width: fit-content;
-  font-family: "cursive";
-  position: relative;
-}
+  .search {
+    width: fit-content;
+    font-family: "cursive";
+    position: relative;
+  }
 
   .searchbar {
     width: 100%;
@@ -296,25 +294,17 @@ h5 {
     box-sizing: border-box;
     padding-right: 50px;
   }
-  
+
   #filterbtn {
     font-size: 20px;
     padding: 8px;
-    position: static; 
+    position: static;
     margin-left: 10px;
-  }
-
-  .filtercontainer {
-    position: absolute;
-    top: 100px;
-    left: 50%;
-    transform: translateX(-50%);
-    margin-right: 0;
   }
 
   .adatlistcontainer {
     padding: 20px 15px;
-    grid-template-columns: repeat(2, 1fr); 
+    grid-template-columns: repeat(2, 1fr);
     gap: 15px;
   }
 
@@ -332,7 +322,7 @@ h5 {
     font-size: 28px;
   }
 
-   .searchcontainer {
+  .searchcontainer {
     flex-direction: column;
     align-items: center;
     margin: 15px 0;
@@ -357,7 +347,7 @@ h5 {
     width: 80%;
     box-sizing: border-box;
   }
-  
+
   .adatlistcontainer {
     grid-template-columns: 1fr;
     padding: 10px;
