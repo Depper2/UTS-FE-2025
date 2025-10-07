@@ -62,8 +62,7 @@ body {
   min-height: 100vh;
 }
 
-.leftframe,
-.rightframe {
+.leftframe,.rightframe {
   flex: 1;
   background-image: url("https://img.freepik.com/premium-photo/seamless-pattern-gold-orange-flowers_1271836-5175.jpg?semt=ais_incoming&w=740&q=80");
   background-repeat: repeat;
@@ -74,7 +73,7 @@ body {
 
 /* main content */
 .contutama {
-  background-color: #fff9f0;
+  background-color: white;
   margin-top: 100px;
   display: flex;
   flex-direction: row;
@@ -83,7 +82,7 @@ body {
   align-items: center;
   padding: 30px;
   border-radius: 20px;
-  box-shadow: 12px 12px 25px black;
+  box-shadow: 6px 6px 12px black;
 }
 
 .contutama img {
